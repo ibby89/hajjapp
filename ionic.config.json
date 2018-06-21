@@ -1,0 +1,8 @@
+{
+  "name": "ionic-epubjs",
+  "app_id": "107d668b",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}
