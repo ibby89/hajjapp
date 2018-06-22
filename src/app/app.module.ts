@@ -6,7 +6,6 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 import { StatusBar } from '@ionic-native/status-bar';
 
 import { MyApp } from './app.component';
-import { HomePage } from '../pages/home/home';
 import { BookPage } from '../pages/book/book';
 import { TocPage } from '../pages/toc/toc';
 import { SettingsPage } from '../pages/settings/settings';
@@ -18,7 +17,6 @@ Pro.init('f9f2f3cc', {
 @NgModule({
   declarations: [
     MyApp,
-    HomePage,
     BookPage,
     TocPage,
     SettingsPage
@@ -30,7 +28,6 @@ Pro.init('f9f2f3cc', {
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
-    HomePage,
     BookPage,
     TocPage,
     SettingsPage
