@@ -89,13 +89,6 @@ export class BookPage {
       this.book.setStyle("color", color);
     });
 
-    // settings: change font
-    this.events.subscribe('select:font-family', (family) => {
-      console.log('select:font-family', family);
-      this.book.setStyle("font-family", family);
-      this._updateTotalPages();
-    });
-
     // settings: change font size
     this.events.subscribe('select:font-size', (size) => {
       console.log('select:font-size', size);

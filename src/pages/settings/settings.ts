@@ -76,11 +76,4 @@ export class SettingsPage {
     }
   }
 
-  changeFontFamily() {
-    if (this.fontFamily) {
-      this.events.publish('select:font-family', this.fontFamily);
-    }
-
-  }
-
 }
