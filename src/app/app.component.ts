@@ -20,12 +20,8 @@ export class MyApp {
       splashScreen.hide();
 
       if (this.platform.is('mobile') && (!this.platform.is('mobileweb'))) {
-        // This will only print when on mobile
-        console.log('I am a mobile device!');
         // set to landscape
         this.screenOrientation.lock(this.screenOrientation.ORIENTATIONS.PORTRAIT_PRIMARY);
-        // This will only print if the orientation is locked
-        console.log('Locked to portrait');
       }
     });
 
